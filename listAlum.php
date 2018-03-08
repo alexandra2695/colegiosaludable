@@ -141,9 +141,6 @@ $resulta= $mysqli->query($sql);
 			if (opval == "TDD") {
 				$('#TDD_Modal').modal("show");
 			}
-			else if (opval == "MCP") {
-				$('#MCP_Modal').modal("show");
-			}
 		});
 		$(function () {
 			$('#consultarTDD').on('click', function () {
